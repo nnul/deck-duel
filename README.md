@@ -92,11 +92,11 @@ The **J** grants you foresight. You can choose to peak at the top card of your d
 
 ##### Ace (**A**)
 
-The **A** is the worst card in the deck and results in a loss in combat, a complete loss of *concentration*, and the players deck being reshuffled. See **reshuffling** for more detail on this step. This is only true when you do not currently have *focus*. See **A\*** for more on this.
+The **A** is the worst card in the deck. It results in a complete loss of *concentration* and the players deck being reshuffled. See **reshuffling** and **concentration** for more details.
 
 ##### Ace with focus (**A\***)
 
-The **A\*** is the best card in the deck. When the **K** is used to gain *focus* the **A** becomes the **A\*** and gains these attributes. It deals +2 damage this round instead of +1. The deck is always reshuffled on any Ace, but on an **A\*** there is no loss in concentration. See **concentration** for more details on this step.
+The **A\*** is the best card in the deck. When the **K** is used to gain *focus* it causes the **A** to become the **A\***. It deals +2 damage this turn instead of +1 and the players deck is reshuffled. The deck is always reshuffled on any Ace, but on an **A\*** there is no loss in concentration. See **concentration** for more details on this step.
 
 ### Concentration
 
