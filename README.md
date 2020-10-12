@@ -26,7 +26,7 @@ Divide a standard 52-card deck of playing cards into four groups by suit. Each p
 
 ### Dice
 
-Each player will need a health tracker (12-sided die), three *will* counters (4-sided die), and two 6-sided dice for managing *aggression* and *guard* points. When using a die for tracking, set the current point value face up on the die.
+Each player will need a 12-sided die (health tracker), a 4-sided die (or three *will* counters), and two 6-sided dice for managing *aggression* and *guard* points. When using a die for tracking, set the current point value face up on the die.
 
 ### Counters
 
@@ -44,7 +44,7 @@ A single, shared counter or token is required to keep track of which player curr
 
 ### Start
 
-Each player rolls a 6-sided die to determine who has initiative. Initiative indicates which player will go first when spending *will*. After each round initiative passes to the player who last won the combat phase.
+Each player rolls a 6-sided die to determine who has initiative. Initiative indicates which player will go first when spending *will* in the Prep Phase. At the end of each turn initiative passes to the player who won the combat phase.
 
 Shuffle your cards and place them face down in front of you. Your opponent is given the option to cut your deck after every reshuffle. Players start with 10 health and 3 *will*.
 
