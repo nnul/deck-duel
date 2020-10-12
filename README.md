@@ -1,8 +1,8 @@
 # Deck Duel (v0.2.7)
 
-Deck Duel is a two player card game played with a single deck of cards and a set of dice or other counters. It could be considered an extension of the card game [War](https://en.wikipedia.org/wiki/War_%28card_game%29). Each player flips over the top card of their deck and the high card wins. Ties are resolved during the next round.
+Deck Duel is a two player card game played with a single deck of cards and a set of dice or counters. It could be considered an extension of the card game [War](https://en.wikipedia.org/wiki/War_%28card_game%29). Each player flips over the top card of their deck and the high card wins. Ties are resolved during the next round.
 
-However, unlike War, each player maintains a health counter and points for performing actions. The deck consists of only a single suit and face cards have special abilities when played.
+However, unlike War, each player maintains a health counter and points for performing actions. The deck consists of only a single card suit and face cards have special abilities when played.
 
 ## Requirements
 
@@ -28,7 +28,7 @@ Divide a standard 52-card deck of playing cards into four groups by suit. Each p
 
 Each player will need a health tracker (12-sided die), three *will* counters (4-sided die), and two 6-sided dice for managing *aggression* and *guard* points. When using a die for tracking, set the current point value face up on the die.
 
-### Counter
+### Counters
 
 A counter can be any small object used for number tracking. Counters can be used in-place of a die for all health and point tracking if it is more convenient.
 
@@ -54,7 +54,7 @@ There are two phases during each round of the duel. The Prep Phase and the Comba
 
 #### Prep Phase
 
-Before combat, each player can concentrate their *will* into one of two areas *aggression* or *guard*. Aggression increases the damage dealt on a success in combat and guard is used to evade incoming damage during a loss in combat. Only a single *will* can be spent per turn in this way. The maximum total in either area can never exceed +3. See the section on **concentration** for more details.
+Before combat, each player can concentrate their *will* into one of two areas: *aggression* or *guard*. Aggression increases the damage dealt on a win in combat and guard is used to evade incoming damage during a loss in combat. Only a single *will* can be spent per turn in this manner. The maximum total per area can never exceed +3. See the section on **concentration** for more details.
 
 The player with initiative spends there *will* first or can choose to not spend any. The other player can then spend their will in response.
 
@@ -62,22 +62,45 @@ The player with initiative spends there *will* first or can choose to not spend 
 
 Each player flips over the top card of their deck and places it face up in play. The highest card wins this turn of combat. The available outcomes from a win are dependent on the winning card. All cards give the winning player the option to deal +1 damage to their opponent or increase their *will* by one. In addition the Ace and all face cards have additional behaviours. In the case of a tie both players increase their concentration in *aggression* by +1 and the combat phase is resolved.
 
-##### Face Cards
+##### Win
 
-1. King (**K**)
-   - The King allows you to gain *focus*. This gives a special meaning and value to the Ace turning it from the worst card in the deck (**A**) into the best card in the deck (**A\***). To gain *focus* you take the **K** and place it sideways next to your discrd pile. This is the only action you take this turn if choosen.
-2. Queen (**Q**)
-   - The Queen grants you health. You can choose to gain +1 health when **Q** is the winning card. Additionally, a single *will* point can be spent to gain another +1, resulting in +2 health this turn. Only 1 *will* can be spent in this manner. This can be done for a maximum total health of 12. No further health can be gained beyond 12.
-3. Jack (**J**)
-   - The Jack grants you foresight. You can choose to peak at the top card of your deck, with the option to immediately discard it. Additionaly, a single *will* point can be spent to peak at another card. Only 1 *will* can be spent in this manner. Both cards can be viewed, but the order cannot be changed and only the top card can be discarded.
-4. Ace (**A**)
-   - The Ace is the worst card in the deck and results in a loss in combat, a complete loss of *concentration*, and the players deck being reshuffled. See **reshuffling** for more detail on this step. This is only true when you do not currently have *focus*. See **A\*** for more on this.
-5. Focused Ace (**A\***)
-   - The *focused* Ace is the best card in the deck. When the **K** is used to gain *focus* the **A** becomes an **A\*** and gains special attributes. It deals +2 damage this round instead of +1. The deck is always reshuffled on an Ace, but on an **A\*** there is no loss in concentration. See *concentration* for more details on this step.
+The winner of combat chooses one of the following actions to perform:
+
+1. Deal card damage (+1 or +2 for **A\***) plus any bonus damage from *aggression*.
+2. Gain +1 *will*. This can only be used if *will* is currently below 3.
+3. Use a face card ability. See **face cards** for more details.
+
+##### Loss
+
+The loser of combat can respond by using *guard* points to evade incoming damage. Any damage not evaded in this way is removed from that players health. If a player takes damage when they have points in their *aggression* pool those points are lost and must be removed from play.
+
+#### Face Cards
+
+Face cards give you additional options in combat. However, these options are only available when a combat phase is won. If a player loses combat with a face card it provides not advantage. This is also true in the case of a tie, where both players will not be afforded these abilities.
+
+##### King (**K**)
+
+The **K** allows you to gain *focus*. This gives special meaning to the Ace by turning it from the worst card in the deck (**A**) into the best card in the deck (**A\***). To gain *focus* you take the **K** and place it sideways next to your discrd pile. This is the only action you take this turn if choosen.
+
+##### Queen (**Q**)
+
+The **Q** grants you health. You can choose to gain +1 health this turn. Additionally, a single *will* point can be spent to gain another +1, resulting in +2 health this turn. Only 1 *will* can be spent in this manner. This can be done for a maximum total health of 12. No further health can be gained beyond 12.
+
+##### Jack (**J**)
+
+The **J** grants you foresight. You can choose to peak at the top card of your deck, with the option to immediately discard it. Additionaly, a single *will* point can be spent to peak at another card. Only 1 *will* can be spent in this manner. Both cards can be viewed, but the order cannot be changed and only the top card can be discarded.
+
+##### Ace (**A**)
+
+The **A** is the worst card in the deck and results in a loss in combat, a complete loss of *concentration*, and the players deck being reshuffled. See **reshuffling** for more detail on this step. This is only true when you do not currently have *focus*. See **A\*** for more on this.
+
+##### Ace with focus (**A\***)
+
+The **A\*** is the best card in the deck. When the **K** is used to gain *focus* the **A** becomes the **A\*** and gains these attributes. It deals +2 damage this round instead of +1. The deck is always reshuffled on any Ace, but on an **A\*** there is no loss in concentration. See **concentration** for more details on this step.
 
 ### Concentration
 
-*Will* points are spent in the prep phase to gain concentration in two areas: *aggression* and *guard*. No more than +3 can ever be gained in a single area. When gaining concentration place a die face up with the current value on the concentration section for the specific area.
+*Will* points are spent in the prep phase to gain concentration in two areas: *aggression* and *guard*. No more than +3 can ever be gained in a single area. When gaining concentration place a die face up with the current value on the concentration section for that area.
 
 Concentration points are used during the combat phase to impact the outcome. Each *aggression* point spent during a successful combat grants +1 damage this turn, for a maximum of +3 damage. Each *guard* point spent during a loss in combat reduces damage by -1 this turn, for a maximum of -3.
 
