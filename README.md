@@ -50,7 +50,7 @@ Shuffle your cards and place them face down in front of you. Your opponent is gi
 
 ### Phases
 
-There are two phases during each round of the duel. The Prep Phase and the Combat Phase.
+There are two phases during each turn of the duel. The Prep Phase and the Combat Phase.
 
 #### Prep Phase
 
@@ -76,11 +76,11 @@ The loser of combat can respond by using *guard* points to evade incoming damage
 
 #### Face Cards
 
-Face cards give you additional options in combat. However, these options are only available when a combat phase is won. If a player loses combat with a face card it provides not advantage. This is also true in the case of a tie, where both players will not be afforded these abilities.
+Face cards give you additional options in combat. However, these options are only available when a combat phase is won. If a player loses combat with a face card it provides not advantage. This is also true in the case of a tie, where neither player can use these abilities.
 
 ##### King (**K**)
 
-The **K** allows you to gain *focus*. This gives special meaning to the Ace by turning it from the worst card in the deck (**A**) into the best card in the deck (**A\***). To gain *focus* you take the **K** and place it sideways next to your discrd pile. This is the only action you take this turn if choosen.
+The **K** allows you to gain *focus*. This gives special meaning to the Ace by turning it from the lowest value card in the deck (**A**) into the highest value card in the deck (**A\***). To gain *focus* you take the **K** and place it sideways next to your discard pile. This is the only action you take this turn if choosen.
 
 ##### Queen (**Q**)
 
@@ -92,11 +92,11 @@ The **J** grants you foresight. You can choose to peak at the top card of your d
 
 ##### Ace (**A**)
 
-The **A** is the worst card in the deck. It results in a complete loss of *concentration* and the players deck being reshuffled. See **reshuffling** and **concentration** for more details.
+The **A** is the lowest value card in the deck. It results in a complete loss of *concentration* and the players deck being reshuffled. See **reshuffling** and **concentration** for more details.
 
 ##### Ace with focus (**A\***)
 
-The **A\*** is the best card in the deck. When the **K** is used to gain *focus* it causes the **A** to become the **A\***. It deals +2 damage this turn instead of +1 and the players deck is reshuffled. The deck is always reshuffled on any Ace, but on an **A\*** there is no loss in concentration. See **concentration** for more details on this step.
+The **A\*** is the highest value card in the deck. When the **K** is used to gain *focus* it causes the **A** to become the **A\***. It deals +2 damage this turn instead of +1 and the players deck is reshuffled. The deck is always reshuffled on any Ace, but on an **A\*** there is no loss in concentration. See **concentration** for more details on this step.
 
 ### Concentration
 
