@@ -113,6 +113,8 @@ All concentration is lost when an unfocused **A** is played. This is immediate a
 
 When an Ace is played that player ends their turn by reshuffling their deck and starting a new round. At the beginning of a new round the player resets their Energy points to 3. If an unfocused **A** was played all Attack and Defense points are also removed. If an **A\*** was played any existing Attack and Defense points are carried into the next round.
 
+Only the player who played an Ace reshuffles their cards. The other player continues until the Ace in their deck is played.
+
 ### Winning
 
 The first player to reduce their opponents health below 1 wins.
