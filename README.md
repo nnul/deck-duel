@@ -101,9 +101,9 @@ The **A\*** is the highest value card in the deck. When the **K** is used to gai
 
 ### Concentration
 
-Energy points are spent in the Prep Phase to increase *concentration* on either Attack or Defense. No more than +3 can be gained in either category. When adding Attack or Defense points place a die face up with the current value in that section of the *concentration* zone.
+Energy points are spent in the Prep Phase to increase *concentration* on either Attack or Defense. No more than +3 can be gained in either category. When adding Attack or Defense points, place a die face up with the current value in that section of the *concentration* zone.
 
-<INSERT IMAGE OF CENCENTRATION HERE>
+<*INSERT IMAGE OF CENCENTRATION HERE*>
 
 A player may spend Attack and Defense points during the combat phase. Each Attack point spent during a successful combat grants +1 damage this turn, for a maximum of +3 damage. Each Defense point spent during a loss in combat reduces damage by -1 this turn, for a maximum of -3. All spent points are removed from play this turn.
 
