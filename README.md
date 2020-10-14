@@ -1,4 +1,4 @@
-# Deck Duel (v0.2.7)
+# Deck Duel (v0.2.8)
 
 Deck Duel is a two player card game played with a single deck of cards and a set of dice. It could be considered an extension of the card game [War](https://en.wikipedia.org/wiki/War_%28card_game%29). Each player flips over the top card of their deck and the high card wins. Ties are resolved during the next turn.
 
