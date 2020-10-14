@@ -93,11 +93,11 @@ The **J** gives a player *foresight*. The player may choose to peak at the top c
 
 ##### Ace (**A**)
 
-The **A** is the lowest value card in the deck. It results in a complete loss of *concentration* and the players deck being reshuffled. See **reshuffling** and **concentration** for more details.
+The **A** is the lowest value card in the deck. It results in a complete loss of *concentration* and the player's deck being reshuffled. See **reshuffling** and **concentration** for more details.
 
 ##### Ace with focus (**A\***)
 
-The **A\*** is the highest value card in the deck. When the **K** is used to gain *focus* it causes the **A** to become the **A\***. The card now deals +2 attack damage when played instead of +1 and the players deck is reshuffled. The deck is always reshuffled on any Ace, but on an **A\*** there is no loss in *concentration*. See **concentration** for more details on this step.
+The **A\*** is the highest value card in the deck. When the **K** is used to gain *focus* it causes the **A** to become the **A\***. The card now deals +2 attack damage when played instead of +1 and the player's deck is reshuffled. The deck is always reshuffled on any Ace, but on an **A\*** there is no loss in *concentration*. See **reshuffling** and **concentration** for more details.
 
 ### Concentration
 
