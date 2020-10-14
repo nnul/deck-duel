@@ -101,13 +101,15 @@ The **A\*** is the highest value card in the deck. When the **K** is used to gai
 
 ### Concentration
 
-Energy points are spent in the prep phase to gain concentration in either Attack or Defense. No more than +3 can be gained in a single area. When gaining concentration place a die face up with the current value on the concentration section for that area.
+Energy points are spent in the Prep Phase to increase *concentration* on either Attack or Defense. No more than +3 can be gained in either category. When adding Attack or Defense points place a die face up with the current value in that section of the *concentration* zone.
 
-A player may spend Attack and Defense points during the combat phase to impact the outcome. Each Attack point spent during a successful combat grants +1 damage this turn, for a maximum of +3 damage. Each Defense point spent during a loss in combat reduces damage by -1 this turn, for a maximum of -3. All spent points are removed from play this turn.
+<INSERT IMAGE OF CENCENTRATION HERE>
 
-Unspent Attack points are maintained only if a player takes no damage during a loss in combat. When a player takes damage all accumulated Attack points are lost. Attack points are not lost if all incoming attack damage is reduced to 0 using Defense points.
+A player may spend Attack and Defense points during the combat phase. Each Attack point spent during a successful combat grants +1 damage this turn, for a maximum of +3 damage. Each Defense point spent during a loss in combat reduces damage by -1 this turn, for a maximum of -3. All spent points are removed from play this turn.
 
-All concentration is lost when an unfocused **A** is played. This is immediate and occurs **before** damage is dealt in the combat phase, allowing the winning player to inflict all damage reguardless of how much guard existed before combat started.
+Unspent Attack points are kept only if a player takes no damage during a loss in combat. When a player takes damage all remaining Attack points are lost. Attack points are not lost if all incoming attack damage is reduced to 0 using Defense points.
+
+All *concentration* is lost when an unfocused **A** is played. The player must remove all Attack and Defense points from play immediately. This occurs **before** damage is dealt in the combat phase. The winning player is then able deal their full amount of attack damage this turn.
 
 ### Reshuffling
 
